@@ -1,0 +1,33 @@
+:root {
+    --altezza-orologio: 50vh;
+}
+
+body {
+    margin: 0px;
+    text-align: center;
+}
+
+.tutto {
+    height: var(--altezza-orologio);
+    margin-top: 50vh;
+    transform: translateY(-50%);
+}
+
+.orologio {
+    position: absolute;
+    height: var(--altezza-orologio);
+    width: var(--altezza-orologio);
+    margin-left: 50%;
+    transform: translateX(-100%);
+}
+
+svg {
+    position: absolute; 
+}
+
+.ora {
+    font-size: 15vh;
+    padding-top: calc(50vh);
+    transform: translateY(-50%);
+}
+
